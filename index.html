@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo</title>
+    <link rel="icon" type="image/x-icon" href="to-do-list.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <div id="container">
+       <input  class="input" type="text" placeholder="Enter todos here..." />
+       <button class="btn" onclick="addTodo()">Add Todo!</button>
+       <button class="btn" onclick="deleteFirstTodo()">Delete First Todo!</button>
+       <button class="btn" onclick="deleteLastTodo()">Delete Last Todo!</button>
+       <div id="todos"></div>
+    </div>
+</body>
+</html>
+
